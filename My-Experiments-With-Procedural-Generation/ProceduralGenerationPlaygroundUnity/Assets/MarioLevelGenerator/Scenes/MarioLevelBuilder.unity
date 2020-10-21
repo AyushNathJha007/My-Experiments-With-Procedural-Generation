@@ -200,7 +200,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 11.24, y: -5.03, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -247,7 +247,7 @@ GameObject:
   - component: {fileID: 1624208637}
   - component: {fileID: 1624208636}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: LevelBuilderManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -293,6 +293,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: e9580d595934ea444966aada7f398b8a, type: 3}
   - {fileID: 21300000, guid: a1708e61f21e226439d47c50dbc7e5b9, type: 3}
   DummyBlock: {fileID: 2924489226868874082, guid: 2924195286c110a41a19c136310a485f, type: 3}
+  Camera: {fileID: 519420028}
   parentOfWorld: {fileID: 850108814}
 --- !u!4 &1624208637
 Transform:
